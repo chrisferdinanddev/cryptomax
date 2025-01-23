@@ -69,7 +69,7 @@ export default function Dashboard() {
       return;
     }
 
-    if (type === 'withdrawal' && Number(amount) > profile?.btc_balance) {
+    if (type === 'withdrawal' && Number(amount) > (profile?.btc_balance ?? 0)) {
       toast.error('Insufficient balance');
       return;
     }

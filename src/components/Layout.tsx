@@ -14,7 +14,7 @@ export default function Layout() {
             <div className="flex">
               <Link to="/" className="flex items-center">
                 <Bitcoin className="h-8 w-8 text-yellow-500" />
-                <span className="ml-2 text-xl font-bold text-gray-900">CryptoInvest</span>
+                <span className="ml-2 text-xl font-bold text-gray-900">CryptoMax</span>
               </Link>
             </div>
             {session && (
